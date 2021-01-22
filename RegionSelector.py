@@ -28,7 +28,7 @@ def mousePoints(event, x, y, flags, params):
         counter2 += 1
 
 
-img = cv2.imread('cleaned.jpg')
+img = cv2.imread('Group 12.png')
 img = cv2.resize(img, (0, 0), None, scale, scale)
 
 while True:
